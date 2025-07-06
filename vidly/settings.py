@@ -25,7 +25,8 @@ SECRET_KEY = 'vrhjgr-$g)*9d64milzu)62s4lz$)#-gxnp-nk9_31_nehsn+z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+DEBUG = 'RENDER' not in os.environ
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
