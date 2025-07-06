@@ -1,1 +1,1 @@
-web: gunicorn vidly.wsgi
+web: pipenv run gunicorn vidly.wsgi
